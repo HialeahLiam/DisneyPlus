@@ -5,12 +5,17 @@
 /.pnp
 .pnp.js
 
+
+# linting
+.eslintrc.js
+
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
+next.config.js
 
 # production
 /build

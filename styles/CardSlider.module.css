@@ -1,0 +1,11 @@
+.carousel {
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    /* height: 25vh; */
+}
+
+.carousel :global .slick-list {
+    padding: 30px 0px;
+}

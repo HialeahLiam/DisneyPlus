@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Avenir-Roman, sans-serif;
+    background: #040714;
+    color: #f9f9f9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: silver;
+    line-height: 26px;
+}
+
+p {
+    margin: 0 0 24px;
+}
+
+section {
+    padding: 5.6vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2 {
+    color: #f9f9f9;
+}
+
+@media only screen and (min-width: 1025px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    body {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media only screen and (min-width: 769px) and 
+(max-width: 1024px) {
+    h2 {
+        font-size: 28px;
+    }
+}
+
